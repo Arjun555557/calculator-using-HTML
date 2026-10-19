@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SellerMargin — Product Profit Calculator</title>
+<meta name="description" content="Free product profit and break-even calculator for online sellers. Estimate contribution after product costs, fees, ads and returns.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="wrap">
+<header><p class="eyebrow">FREE SELLER TOOL</p><h1>SellerMargin</h1><p class="intro">Know your estimated profit before you sell. Enter your own fees and costs; no account or API key needed.</p></header>
+<section class="card">
+<h2>Product inputs</h2>
+<div class="grid">
+<label>Selling price (₹)<input id="price" type="number" min="0" step="0.01" value="500"></label>
+<label>Product cost (₹)<input id="cost" type="number" min="0" step="0.01" value="200"></label>
+<label>Shipping & packaging (₹)<input id="shipping" type="number" min="0" step="0.01" value="40"></label>
+<label>Marketplace fees (₹)<input id="fees" type="number" min="0" step="0.01" value="60"></label>
+<label>Advertising per unit (₹)<input id="ads" type="number" min="0" step="0.01" value="30"></label>
+<label>Returns allowance per unit (₹)<input id="returns" type="number" min="0" step="0.01" value="10"></label>
+<label>Other costs per unit (₹)<input id="other" type="number" min="0" step="0.01" value="10"></label>
+<label>Units sold per month<input id="units" type="number" min="0" step="1" value="100"></label>
+</div>
+<button id="calculate" type="button">Calculate profit</button>
+</section>
+<section class="results" aria-live="polite">
+<div class="metric"><span>Contribution per unit</span><strong id="contribution">₹150.00</strong></div>
+<div class="metric"><span>Contribution margin</span><strong id="margin">30.0%</strong></div>
+<div class="metric"><span>Break-even selling price</span><strong id="breakeven">₹350.00</strong></div>
+<div class="metric"><span>Estimated monthly contribution</span><strong id="monthly">₹15,000.00</strong></div>
+</section>
+<section class="card"><h2>How to read this</h2><p>Contribution = selling price minus the costs entered above. Break-even price is the entered per-unit costs before profit. Monthly estimate assumes the same costs and contribution for each unit sold.</p><p class="note"><strong>Important:</strong> This is an estimate, not accounting or tax advice. Enter current marketplace fees, applicable taxes and realistic return costs yourself. Taxes and fixed overhead are not automatically included.</p></section>
+<footer>SellerMargin · Free browser calculator · <a href="https://github.com/Arjun555557/calculator-using-HTML">Source code</a></footer>
+</main><script src="calculator.js"></script>
+</body></html>
