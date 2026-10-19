@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arjun555557.github.io/calculator-using-HTML/sitemap.xml
