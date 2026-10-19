@@ -1,3 +1,4 @@
+# Redeploy trigger after configuring GitHub Pages source to GitHub Actions.
 name: Deploy Everyday Tools to GitHub Pages
 
 on:
