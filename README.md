@@ -24,3 +24,7 @@ This MVP does not scrape websites, verify contacts, send outreach, or use an AI 
 
 ## First commercial offer to test
 Offer a manually verified, niche-specific prospect research pack to a small B2B agency or service business. Agree on scope and sample quality before quoting a fee. The software itself does not guarantee income.
+
+
+## Studio offer page
+Open `studio.html` for the initial website-service offer and illustrative layout. Pricing is experimental and must be confirmed before quoting a client. The page intentionally contains no invented phone number, email address, client logos, testimonials, or results. Add verified business contact details before publishing it as a public sales page.
